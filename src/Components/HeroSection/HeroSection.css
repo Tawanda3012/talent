@@ -1,0 +1,70 @@
+.hero-section {
+ 
+  margin-top: 80px;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section-image {
+ 
+  border-radius: 30px;
+  margin-left: 110px;
+}
+
+/* .hero-section-text {
+  width: 679px;
+} */
+.hero-section-text h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero-section-text p {
+  font-weight: 40o;
+  font-size: 16px;
+  line-height: 21.86px;
+}
+
+.hero-section-text h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.hero-section-text h1 span {
+  color: rgba(7, 71, 161, 1);
+  font-weight: 600;
+}
+
+.trusted-companies{
+    text-align: center;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 60px;
+    border-radius: 20px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.trusted-companies h2{
+    line-height: 75px;
+}
+
+.company-logo{
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo img{
+    width: 198px;
+}
