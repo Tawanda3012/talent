@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 
 const Header = () => {
@@ -29,7 +30,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header container">
       <div className="header__logo">
         {/* <img src="/assets/images/logo.png" alt="Uncommon Logo" /> */}
         <h1 className="header__title">Uncommon</h1>
