@@ -1,6 +1,6 @@
 .hero-section {
  
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .row{
@@ -12,6 +12,7 @@
 .hero-section-image {
  
   border-radius: 30px;
+  margin-left: 110px;
 }
 
 /* .hero-section-text {
@@ -39,4 +40,31 @@
 .hero-section-text h1 span {
   color: rgba(7, 71, 161, 1);
   font-weight: 600;
+}
+
+.trusted-companies{
+    text-align: center;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 60px;
+    border-radius: 20px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.trusted-companies h2{
+    line-height: 75px;
+}
+
+.company-logo{
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo img{
+    width: 198px;
 }
