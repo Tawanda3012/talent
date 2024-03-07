@@ -2,7 +2,21 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import profilesData from "../../Data/profiles.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faIndustry } from "@fortawesome/free-solid-svg-icons";
 import "./ProfileGrid.css";
+
+
+
+
+
+const industries = [
+  { value: "Google", label: "Google" },
+  { value: "UX-UI", label: "UX-UI" },
+  { value: "education", label: "Education" },
+  // Add more industry options as needed
+];
 
 const ProfileGrid = () => {
   const [fetchedProfilesData, setFetchedProfilesData] = useState([]);
@@ -40,23 +54,31 @@ const ProfileGrid = () => {
             <div className="search-input">
               <input
                 type="text"
-                placeholder="Search by name or role"
+                placeholder="Name or Keyword"
                 value={searchKeyword}
                 onChange={(e) => setSearchKeyword(e.target.value)}
               />
               <button type="submit" onClick={handleSearch}>
-                <i className="fas fa-search"></i>
+                <FontAwesomeIcon icon={faSearch} />
               </button>
             </div>
+
+            {/* <button type="submit" onClick={handleSearch}>
+                <FontAwesomeIcon icon={faIndustry} />
+              </button> */}
 
             <select
               value={industryFilter}
               onChange={(e) => setIndustryFilter(e.target.value)}
             >
-              <option value="">All Industries</option>
-              <option value="Google ">Google </option>
-              <option value="UX-UI">UX-UI</option>
-              <option value="education">Education</option>
+              <option value="">
+                <FontAwesomeIcon icon={faIndustry} /> Industries
+              </option>
+              {industries.map((industry) => (
+                <option key={industry.value} value={industry.value}>
+                  {industry.label}
+                </option>
+              ))}
               {/* Add more industry options */}
             </select>
 
