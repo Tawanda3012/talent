@@ -71,4 +71,28 @@
     "role": "Google Cloud Engineer",
     "image":  "/Images/Frame.png"
   }
+  ,{
+    "id": 9,
+    "name": "Tawanda Mavondo",
+    "role": "Google Cloud Engineer",
+    "image":  "/Images/Frame.png"
+  },
+  {
+    "id": 10,
+    "name": "Tawanda Mavondo",
+    "role": "Google Cloud Engineer",
+    "image":  "/Images/Frame.png"
+  },
+  {
+    "id": 11,
+    "name": "Tawanda Mavondo",
+    "role": "Google Cloud Engineer",
+    "image":  "/Images/Frame.png"
+  },
+  {
+    "id": 12,
+    "name": "Tawanda Mavondo",
+    "role": "Google Cloud Engineer",
+    "image":  "/Images/Frame.png"
+  }
 ]

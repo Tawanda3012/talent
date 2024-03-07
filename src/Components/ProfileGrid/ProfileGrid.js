@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import profilesData from "../../Data/profiles.json";
-import './ProfileGrid.css'
+import "./ProfileGrid.css";
 
 const ProfileGrid = () => {
   const [fetchedProfilesData, setFetchedProfilesData] = useState([]);
@@ -36,13 +36,18 @@ const ProfileGrid = () => {
       <div className="talent">
         <h2>find top tech talent</h2>
         <div className="talent-filter">
-          <form onSubmit={handleSearch}>
-            <input
-              type="text"
-              placeholder="Search by name or role"
-              value={searchKeyword}
-              onChange={(e) => setSearchKeyword(e.target.value)}
-            />
+          <form onSubmit={handleSearch} className="search-form">
+            <div className="search-input">
+              <input
+                type="text"
+                placeholder="Search by name or role"
+                value={searchKeyword}
+                onChange={(e) => setSearchKeyword(e.target.value)}
+              />
+              <button type="submit" onClick={handleSearch}>
+                <i className="fas fa-search"></i>
+              </button>
+            </div>
 
             <select
               value={industryFilter}
