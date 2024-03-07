@@ -1,0 +1,13 @@
+.talent{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.talent h2{
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+}
