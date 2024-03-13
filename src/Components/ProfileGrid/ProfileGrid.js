@@ -46,7 +46,7 @@ const ProfileGrid = () => {
     setFetchedProfilesData(filteredProfiles);
   };
   return (
-    <div className="container">
+    <div className="container" id="talentSection">
       <div className="talent">
         <h2>find top tech talent</h2>
         <div className="talent-filter">
