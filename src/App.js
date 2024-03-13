@@ -1,15 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './Pages/Home';
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import ProfilePage from "./Pages/ProfilePage";
 
 const App = () => {
   return (
-    <Router>
-     
-      <Home/>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile/:id" element={<ProfilePage />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
