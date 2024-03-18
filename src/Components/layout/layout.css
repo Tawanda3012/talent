@@ -1,0 +1,58 @@
+/* layout.css */
+
+.stories {
+    background: #0747A1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  
+  .stories-images {
+    display: flex;
+    position: relative;
+    right: 6%;
+    margin-top: -4%;
+  }
+  
+  .stories-images img {
+    width: 50px;
+    border-radius: 24px;
+    height: 50px;
+    position: absolute;
+  }
+  
+  .stories-images img:nth-child(1) {
+    left: 0;
+  }
+  
+  .stories-images img:nth-child(2) {
+    left: 29px; /* Adjust the distance for horizontal overlap */
+  }
+  
+  .stories-images img:nth-child(3) {
+    left: 62px; /* Adjust the distance for horizontal overlap */
+  }
+  
+  .stories-images img:nth-child(4) {
+    left: 94px; /* Adjust the distance for horizontal overlap */
+  }
+  
+  .stories-images img:nth-child(5) {
+    left: 132px; /* Adjust the distance for horizontal overlap */
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .stories-donation button {
+    border: none;
+    padding: 2px 20px;
+    color: blue;
+    border-radius: 24px;
+    background-color: white;
+  }

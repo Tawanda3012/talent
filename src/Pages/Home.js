@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header/Header'
 import HeroSection from "../Components/HeroSection/HeroSection"
 import ProfileGrid from '../Components/ProfileGrid/ProfileGrid'
-import Layout from '../Components/layout/layout'
+import Footer from '../Components/Footer/Footer'
 
 
 export default function Home() {
@@ -11,7 +11,8 @@ export default function Home() {
        <Header/>
        <HeroSection/>
        <ProfileGrid/>
-       <Layout/>
+     
+       <Footer/>
     </div>
   )
 }

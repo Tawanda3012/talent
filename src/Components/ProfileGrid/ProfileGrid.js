@@ -5,6 +5,7 @@ import profilesData from "../../Data/profiles.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faIndustry } from "@fortawesome/free-solid-svg-icons";
+
 import "./ProfileGrid.css";
 
 

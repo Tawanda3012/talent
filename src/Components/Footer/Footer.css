@@ -1,0 +1,48 @@
+.footer .col-md-8{
+    background-color: #0747A1;
+    border-radius: 24px;
+    padding: 55px;
+}
+
+
+.contact-links{
+    display: flex;
+}
+
+.contact-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.contact-links a:nth-child(2) {
+    margin: 0 10px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 0 10px;
+    display: inline-block;
+    height: 100%!important; /* Adjust the height as needed to match the anchor tags */
+  }
+
+  h3{
+    color: white;
+    font-size: 80px;
+  }
+
+  .contact-email .fom{
+    border-width: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 30px;
+}
+ .contact-email .fom button{
+    border: none;
+    border-radius: 30px;
+    padding: 7px 40px;
+  }
+
+  .fom input{
+    border: none;
+  }
