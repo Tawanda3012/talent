@@ -58,14 +58,15 @@ const ProfileGrid = () => {
                 value={searchKeyword}
                 onChange={(e) => setSearchKeyword(e.target.value)}
               />
-              <button type="submit" onClick={handleSearch}>
-                <FontAwesomeIcon icon={faSearch} />
+               <button type="submit" onClick={handleSearch}>
+            <FontAwesomeIcon icon={faSearch} className="icon-clas" />
+              </button>
+              <button type="submit" onClick={handleSearch}  className="icon-class"  >
+              <FontAwesomeIcon icon={faIndustry}/>
               </button>
             </div>
 
-            {/* <button type="submit" onClick={handleSearch}>
-                <FontAwesomeIcon icon={faIndustry} />
-              </button> */}
+           
 
             <select
               value={industryFilter}
@@ -82,7 +83,7 @@ const ProfileGrid = () => {
               {/* Add more industry options */}
             </select>
 
-            <button type="submit" onClick={handleSearch}>
+            <button type="submit" onClick={handleSearch} className="search" >
               Search
             </button>
           </form>

@@ -13,10 +13,12 @@ const ProfilePage = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          
           <img src={profile.image} alt={`Image ${profile.id}`} />
           <h1>{profile.name}</h1>
           <p>{profile.role}</p>
+        </div>
+        <div className="col-md-8">
+          
         </div>
       </div>
     </div>
