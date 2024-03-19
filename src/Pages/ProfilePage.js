@@ -17,6 +17,9 @@ const ProfilePage = () => {
           <h1>{profile.name}</h1>
           <p>{profile.role}</p>
         </div>
+        <div className="col-md-8">
+          
+        </div>
       </div>
     </div>
   );
