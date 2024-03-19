@@ -1,98 +1,98 @@
 [
   {
     "id": 1,
-    "name": "Tawanda Nhare",
-    "role": "Google ",
-    "image":  "/Images/Frame.png"
+    "name": "Alisa adams",
+    "role": "Full Stack Developer",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 2,
-    "name": "Tawanda Mavondo",
-    "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "name": "brett howsom",
+    "role": "Content Strategist",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 3,
     "name": "Tawanda Mavondo",
-    "role": "UX-UI",
-    "image":  "/Images/Frame.png"
+    "role": "Google Cloud Engineer",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 4,
-    "name": "Tawanda Mavondo",
-    "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "name": "Kudakwashe Mutandashure",
+    "role": "Design System - Architect",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 5,
-    "name": "Tawanda Mavondo",
-    "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "name": "Walter Gombarume",
+    "role": "User Experience Designer",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 6,
-    "name": "Tawanda Mavondo",
-    "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "name": "Benjamin Smith",
+    "role": "Content Strategist",
+    "image": "/Images/Frame.png"
   },
   {
     "id": 7,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 8,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 9,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 10,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 11,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 12,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
-  }
-  ,{
+    "image": "/Images/Frame.png"
+  },
+  {
     "id": 9,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 10,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 11,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   },
   {
     "id": 12,
     "name": "Tawanda Mavondo",
     "role": "Google Cloud Engineer",
-    "image":  "/Images/Frame.png"
+    "image": "/Images/Frame.png"
   }
 ]

@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="hero-section container">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-12 col-sm-12 col-md-6">
           <div className="hero-section-text">
             <h1>
               {" "}
@@ -22,25 +22,25 @@ const HeroSection = () => {
             <p>We can change lives, one job at a time.</p>
           </div>
         </div>
-        <div className="col-md-6 ">
+        <div className="col-12 col-sm-12 col-md-6 ">
           <div className="hero-section-image">
-            <img src={hero} alt="Description" />
+            <img src={hero} alt="Description" className="img-fluid" />
           </div>
         </div>
       </div>
 
       <div className="trusted-companies ">
-         <h2>trusted by organizations big and small</h2>
-         <div className="company-logo row ">
-           
-           <img src={google} alt="google logo" />
-           <img src={google} alt="google logo" />
-           <img src={google} alt="google logo" />
-           <img src={google} alt="google logo" />
-           <img src={google} alt="google logo" />
-         </div>
+        <h2>trusted by organizations big and small</h2>
+        <div className="company-logo row ">
+
+          <img src={google} alt="google logo" />
+          <img src={google} alt="google logo" />
+          <img src={google} alt="google logo" />
+          <img src={google} alt="google logo" />
+          <img src={google} alt="google logo" />
+        </div>
       </div>
-     
+
     </section>
   );
 };

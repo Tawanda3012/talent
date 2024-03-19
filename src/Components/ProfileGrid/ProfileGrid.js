@@ -91,7 +91,7 @@ const ProfileGrid = () => {
       <div className="row">
         {fetchedProfilesData.map((profile, index) => (
           // added responsive design for mobile view
-          <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mt-5">
+          <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 ">
             <Link
               to={`/profile/${profile.id}`}
               style={{ textDecoration: "none" }}

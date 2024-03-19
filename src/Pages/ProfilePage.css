@@ -1,0 +1,72 @@
+#profilePage {
+  margin-top: 30px;
+}
+#profilePage .innerProfilePage {
+  margin-top: -140%;
+}
+.bio {
+  background-color: #f6f7f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 16px;
+}
+.innerExpe {
+  background-color: #f6f7f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+.education {
+  background-color: #f6f7f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+.licences {
+  background-color: #f6f7f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+.voluntary {
+  background-color: #f6f7f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+.innerProject {
+  position: relative;
+  background-color: rgba(228, 234, 239, 255);
+  border-radius: 50px;
+}
+.innerProject img {
+  border-radius: 50px;
+}
+.captions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.captions .nav-link {
+  text-decoration: underline;
+}
+.captions :hover.nav-link {
+  text-decoration: underline;
+  color: rgba(7, 71, 161, 1);
+}
+.innerProject :hover.captions {
+  opacity: 1;
+}

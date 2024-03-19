@@ -82,3 +82,9 @@ input[type="text"]:focus {
      and to ensure consistency across different browsers and devices. */
 
 /* Remember to reset the default styling of the form elements for a more consistent appearance */
+#talentSection .card {
+  background-color: rgba(246, 247, 249, 1);
+  padding: 10px 10px 0 10px;
+  border: none;
+  border-radius: 10px;
+}
