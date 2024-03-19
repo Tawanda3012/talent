@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Footer.css';
 import Layout from '../layout/layout';
 import Image from "../../Assets/Images/Frame.png";
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
