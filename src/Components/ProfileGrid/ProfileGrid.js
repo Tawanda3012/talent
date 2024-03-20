@@ -100,7 +100,7 @@ const ProfileGrid = () => {
                   src={profile.image}
                   className="card-img-top"
                   alt={`Image ${profile.id}`}
-                  style={{ height: "200px", width: "100%" }}
+                  
                 />
                 <div className="card-body">
                   <h5 className="card-title">{profile.name}</h5>

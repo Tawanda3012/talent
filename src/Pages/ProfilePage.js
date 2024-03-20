@@ -2,6 +2,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
 import profilesData from "../Data/profiles.json";
+import"./ProfilePage.css";
 
 const ProfilePage = () => {
   const { id } = useParams();
@@ -11,10 +12,12 @@ const ProfilePage = () => {
 
   return (
     <div className='container' >
-      
-      <h1>{profile.name}</h1>
+      <div className='main-profile '>
       <img src={profile.image} alt={`Image ${profile.id}`} />
       <p>{profile.role}</p>
+      <h4>{profile.name}</h4>
+      <button>Get In Touch</button>
+    </div>
     </div>
   );
 };

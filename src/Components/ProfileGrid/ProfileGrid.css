@@ -79,6 +79,20 @@
     cursor: pointer;
   }
   
+
+  .card{
+    height: 335px;
+    background:whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+
+  }
+  .card-img-top{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+  }
   /* Additional styles might be necessary for focus states, active states,
      and to ensure consistency across different browsers and devices. */
   
